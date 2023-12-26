@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring-ex-demo
+  mvc:
+    enable-global-res: true
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: off
+  threads:
+    virtual:
+      enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_ex_demo
+    username: root
+    password: Aa123456#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    default-property-inclusion: NON_NULL
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+mybatis-flex:
+  global-config:
+    print-banner: false
+logging:
+  level:
+    "[com.guanmengyuan.spring.ex.demo.mapper]": debug
