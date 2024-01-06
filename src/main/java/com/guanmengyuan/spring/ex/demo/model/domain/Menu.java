@@ -43,6 +43,10 @@ public class Menu extends BaseDomain<Menu> {
      */
     private Integer type;
     /**
+     * 是否隐藏
+     */
+    private  Boolean hidden;
+    /**
      * 子路由
      */
     @RelationOneToMany(selfField = "id", targetField = "parentId")

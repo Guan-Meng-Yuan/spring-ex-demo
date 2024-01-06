@@ -24,3 +24,5 @@ mybatis-flex:
 logging:
   level:
     "[com.guanmengyuan.spring.ex.demo.mapper]": debug
+server:
+  port: 8081
