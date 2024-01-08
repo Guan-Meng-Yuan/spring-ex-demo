@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.0</version>
+		<version>3.2.1</version>
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
@@ -44,7 +44,7 @@
 				<artifactId>spring-ex-dependencies</artifactId>
 				<scope>import</scope>
 				<type>pom</type>
-				<version>1.2.25</version>
+				<version>1.2.27</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

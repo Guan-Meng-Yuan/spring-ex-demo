@@ -1,13 +1,12 @@
 package com.guanmengyuan.spring.ex.demo.model.domain;
 
-import java.util.List;
-
 import com.guanmengyuan.spring.ex.common.model.domain.BaseDomain;
 import com.mybatisflex.annotation.RelationOneToMany;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+
+import java.util.List;
 
 @Accessors(chain = true)
 @Data(staticConstructor = "create")
@@ -46,6 +45,10 @@ public class Menu extends BaseDomain<Menu> {
      * 是否隐藏
      */
     private  Boolean hidden;
+    /**
+     * 路由标题
+     */
+    private String title;
     /**
      * 子路由
      */
