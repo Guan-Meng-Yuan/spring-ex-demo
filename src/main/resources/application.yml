@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-ex-demo
+  datasource:
+    password: Aa123456#
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://192.168.3.208/test
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+
+  main:
+    allow-bean-definition-overriding: true
+mybatis-flex:
+  global-config:
+    print-banner: false
