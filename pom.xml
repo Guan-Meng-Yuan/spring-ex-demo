@@ -43,6 +43,17 @@
         <dependency>
             <groupId>com.guanmengyuan.spring-ex</groupId>
             <artifactId>spring-boot-starter-mybatis-flex</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.mybatis-flex</groupId>
+                    <artifactId>mybatis-flex-spring-boot3-starter</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.mybatis-flex</groupId>
+            <artifactId>mybatis-flex-spring-boot3-starter</artifactId>
+            <version>1.10.7</version>
         </dependency>
         <dependency>
             <groupId>com.guanmengyuan.spring-ex</groupId>
